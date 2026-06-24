@@ -167,9 +167,28 @@ main {
 
 .hero {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 3rem 0 2rem;
+}
+
+.hero-text {
+  display: flex;
   flex-direction: column;
   gap: 1.25rem;
-  padding: 3rem 0 2rem;
+  flex: 1;
+  min-width: 0;
+}
+
+.hero-photo {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 3px solid var(--bg-elevated);
+  box-shadow: var(--shadow);
 }
 
 .hero-eyebrow {
@@ -450,6 +469,17 @@ main {
 
   .pdf-embed-wrapper iframe {
     height: 60vh;
+  }
+
+  .hero {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .hero-photo {
+    width: 96px;
+    height: 96px;
   }
 }
 
