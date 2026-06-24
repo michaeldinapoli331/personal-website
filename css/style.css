@@ -182,8 +182,8 @@ main {
 }
 
 .hero-photo {
-  width: 140px;
-  height: 140px;
+  width: 190px;
+  height: 190px;
   border-radius: 50%;
   object-fit: cover;
   flex-shrink: 0;
@@ -478,8 +478,8 @@ main {
   }
 
   .hero-photo {
-    width: 96px;
-    height: 96px;
+    width: 130px;
+    height: 130px;
   }
 }
 
