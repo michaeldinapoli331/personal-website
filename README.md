@@ -2,7 +2,7 @@
 
 A personal website built with plain HTML, CSS, and JavaScript — no frameworks, no build step. Features a homepage, a resume page, and a projects page, with a light/dark theme toggle and a responsive layout.
 
-**Live site:** _coming soon_
+**Live site:** [michaeldinapoli331.github.io/personal-website](https://michaeldinapoli331.github.io/personal-website/)
 
 ## Structure
 
@@ -26,4 +26,4 @@ then visit `http://localhost:8000`.
 
 ## Status
 
-Work in progress. Profile photo, full resume details, and real project links are placeholders for now and will be filled in soon.
+Work in progress. Full resume details and additional project links will be filled in soon.
